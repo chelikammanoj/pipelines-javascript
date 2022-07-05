@@ -4,7 +4,8 @@ pool:
   vmImage: 'Ubuntu 16.04'
   
 variables:
-  imageName: 'myacrregistry01:$(Build.BuildId)'
+  imageName: 'myacrregistry01.azurecr.io/chelikammanoj/pipelines-javascript
+  
   # define two more variables dockerId and dockerPassword in the build pipeline in UI
 
 steps:
